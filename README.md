@@ -1,9 +1,9 @@
-## Assignment1
+# Assignment1
 
-# Features made
+## Features made
 
-# Features yet to be made
+## Features yet to be made
 
-# Technologies
+## Technologies
 
-# Credits
+## Credits
