@@ -13,6 +13,13 @@ This website is built for people all around the world to discover what Singapore
 
 ## Features made
 
+- Navigation Bar
+- Embed video
+- Embed poll results
+- In-built quiz
+- Feedback form
+- Embed instagram posts
+
 ## Features yet to be made
 
 3 tabs
