@@ -32,5 +32,6 @@ This website is built for people all around the world to discover what Singapore
 
 - HTML
 - CSS
+- JavaScript
 
 ## Credits
