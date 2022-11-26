@@ -14,11 +14,10 @@
 <body>
     <article class="musicheader">
         <nav>
-            <a href="">hi</a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="">Music</a></li>
                     <li><a href="drama.html">Dramas/Variety</a></li>
                     <li><a href="">Movies</a></li>
@@ -30,20 +29,58 @@
         <div class="textbox">
             <h1>Music</h1>
             <p>Singer-songwriters that were born in Singapore and has made our country proud with their productions</p>
-            <a href="" class="button">Visit us to know More</a>
+            
         </div>
     </article>
-    <div>
-
+    <div class="main">
+        <table>
+            <tr>
+                <td><img src="images/jj lin.jpg" alt=""></td>
+                <td>
+                    JJ Lin
+                    <ul>
+                        <li>那些你很冒险的梦</li>
+                        <li>小酒窝</li>
+                        <li>豆浆油条</li>
+                    </ul>
+                </td>
+                <td><a href="https://open.spotify.com/artist/7Dx7RhX0mFuXhCOUgB01uM" target="_blank" class="newbutton">Find out more</a></td>
+            </tr>
+            <tr>
+                <td><img src="images/stefenie.webp" alt=""></td>
+                <td>
+                    Stefanie Sun
+                    <ul>
+                        <li>遇见</li>
+                        <li>逆光</li>
+                        <li>天黑黑</li>
+                    </ul>
+                </td>
+                <td><a href="https://open.spotify.com/artist/0SIXZXJCAhNU8sxK0qm7hn" target="_blank" class="newbutton">Find out more</a></td>
+            </tr>
+            <tr>
+                <td><img src="images/micapella.jpg" alt=""></td>
+                <td>
+                    Micappella
+                    <ul>
+                        <li>We are a symphony</li>
+                        <li>友谊万岁</li>
+                        <li>生命火焰</li>
+                    </ul>
+                </td>
+                <td><a href="https://open.spotify.com/artist/7pOhEqKcqQyyKSxj8mmRKI" target="_blank" class="newbutton">Find out more</a></td>
+            </tr>
+            
+        </table>
     </div>
     <!----JavaScript for toggle menu---->
     <script>
         var navLinks=document.getElementById("navLinks");
         function showMenu(){
-            navLinks.style.right="0";
+            navLinks.style.left="0";
         }
         function hideMenu(){
-            navLinks.style.right="-200px";
+            navLinks.style.left="-200px";
         }
     </script>
 </body>

@@ -8,6 +8,45 @@ img{
     width:100px;
 }
 
+table img{
+    width:500px;
+}
+
+table{
+    width:100%;
+}
+
+table td{
+    font-size: 35px;
+    padding:20px;
+}
+
+.newbutton{
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:12px 34px;
+    font-size: 20px;
+    background:transparent;
+    position:relative;
+    cursor:pointer;
+    border-radius: 12px;
+    background:lightblue;
+}
+
+.newbutton:hover{
+    border: 1px solid #f44336;
+    background:#f44336;
+    transition: 1s;
+    color:white;
+
+}
+
+.bbt{
+    font-size:60px;
+}
+
 .homeheader{
     min-height: 100vh;
     width: 100%;
@@ -116,10 +155,11 @@ nav{
     color:#fff;
     border:1px solid #fff;
     padding:12px 34px;
-    font-size: 13px;
+    font-size: 20px;
     background:transparent;
     position:relative;
     cursor:pointer;
+    border-radius: 12px;
 }
 
 .button:hover{
@@ -132,6 +172,7 @@ nav{
 nav .fa{
     display:none;
 }
+
 
 * {
     box-sizing: border-box;
@@ -166,6 +207,7 @@ nav .fa{
 }
 
 
+
 @media(max-width: 700px){
     .textbox h1{
         font-size:20px;
@@ -197,6 +239,18 @@ nav .fa{
     }
     .row{   
         flex-direction: column;
+    }
+
+    table td{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    table img{
+        width:100%;
     }
     
 }

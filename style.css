@@ -31,12 +31,12 @@ body.wrong{
 }
 
 .container{
-    width:800px;
-    max-width: 80%;
+    width: 100%;
     background-color: white;
     border-radius:5px;
     padding:10px;
     box-shadow: 0 0 10px 2px;
+    align-items: center;
 }
 
 .btn-grid{
@@ -72,7 +72,7 @@ body.wrong{
 .start-btn, .next-btn{
     font-size:1.5rem;
     font-weight:bold;
-    padding:10px 20px;
+    padding:5px 10px;
 }
 
 .controls{
