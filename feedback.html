@@ -4,17 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1</title>
+    <title>Feedback</title>
+    <link rel="icon" type="image/x-icon" href="/images/view-modified.png">
     <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="feedbackstyle.css">
+    <link rel="stylesheet" href="feedbackstyle copy.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <article class="dramaheader">
+    
+    <article class="feedbackheader">
         <nav>
+            <!-- <div class="wrapper">
+                <a href="https://www.facebook.com/ch8sg" target="_blank" class="pic">
+                    <div class="icon facebook">
+                        <div class="tooltip">Facebook</div>
+                        <span><i class="fa fa-facebook"></i></span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/the_celebrityagency/" target="_blank">
+                    <div class="icon instagram">
+                        <div class="tooltip">Instagram</div>
+                        <span><i class="fa fa-instagram"></i></span>
+                    </div>
+                </a>
+                <a href="https://github.com/roofclimb/Assignment1" target="_blank">
+                    <div class="icon github">
+                        <div class="tooltip">Github</div>
+                        <span><i class="fa fa-github"></i></span>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/@MediacorpEntertainment" target="_blank">
+                    <div class="icon youtube">
+                        <div class="tooltip">YouTube</div>
+                        <span><i class="fa fa-youtube-play"></i></span>
+                    </div> 
+                </a>
+            </div>-->
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -29,57 +57,62 @@
         </nav>
         <div class="textbox">
             <h1>Contact Us/Feedback</h1>
-            <p>Thank you for going through my website.</p>
-            <a href="" class="button">Visit us to know More</a>
         </div>
     </article>
     <div>
         <br>
         <div class="wrapper">
-            <a href="https://www.facebook.com/ch8sg" target="_blank">
-                <div class="icon facebook">
-                    <div class="tooltip">Facebook</div>
-                    <span><i class="fa fa-facebook"></i></span>
-                </div>
+            <a href="https://www.facebook.com/ch8sg" target="_blank" class="button1">
+                
+                    <div class="icon">
+                       <i class="fa fa-facebook"></i>
+                    </div>
+                    <span>Facebook</span>
+                 
             </a>
-            <a href="https://www.instagram.com/the_celebrityagency/" target="_blank">
-                <div class="icon instagram">
-                    <div class="tooltip">Instagram</div>
-                    <span><i class="fa fa-instagram"></i></span>
-                </div>
+            <a href="https://www.instagram.com/the_celebrityagency/" target="_blank" class="button1">
+                    <div class="icon">
+                       <i class="fa fa-instagram"></i>
+                    </div>
+                    <span>Instagram</span>
+                 
             </a>
-            <a href="https://github.com/roofclimb/Assignment1" target="_blank">
-                <div class="icon github">
-                    <div class="tooltip">Github</div>
-                    <span><i class="fa fa-github"></i></span>
-                </div>
+            <a href="https://github.com/roofclimb/Assignment1" target="_blank" class="button1">
+                    <div class="icon">
+                       <i class="fa fa-github"></i>
+                    </div>
+                    <span>Github</span>
+                 
             </a>
-            <a href="https://www.youtube.com/@MediacorpEntertainment" target="_blank">
-                <div class="icon youtube">
-                    <div class="tooltip">YouTube</div>
-                    <span><i class="fa fa-youtube-play"></i></span>
-                </div>
+            <a href="https://www.youtube.com/@MediacorpEntertainment" target="_blank" class="button1">
+               <div class="icon">
+                  <i class="fa fa-youtube-play"></i>
+               </div>
+               <span>YouTube</span>
             </a>
-        </div>
+            
+         </div>
         
     </div>
     <br>
     <br>
     <div>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" placeholder="name">
+        <form name="myForm" onsubmit="showack()">
+            <label for="name">Name: <span class="star">*</span></label>
+            <input type="text" name="fname" placeholder="name" required>
             <br>
-            <label for="email">Email address:</label>
-            <input type="email" placeholder="email">
+            <label for="email">Email address: <span class="star">*</span></label>
+            <input type="email" name="femail" placeholder="example@email.com" required>
             <br>
-            <p>Feedback:</p>
-            <textarea></textarea>
+            <p>Feedback: <span class="star">*</span></p>
+            <textarea cols="55" required></textarea>
             <br>
-            <input type="submit">&ensp;
+            <input type="submit">&emsp;
             <input type="reset">
         </form>
+        
     </div>
+    <br><br>
     <!----JavaScript for toggle menu---->
     <script>
         var navLinks=document.getElementById("navLinks");
@@ -88,6 +121,12 @@
         }
         function hideMenu(){
             navLinks.style.left="-200px";
+        }
+
+        function showack(){
+            let x=document.forms["myForm"]["fname"].value;
+            let y=document.forms["myForm"]["femail"].value;
+            alert('Thank you '+x+' for your feedback. We will contact you via '+y+' in 3 days');
         }
     </script>
 </body>

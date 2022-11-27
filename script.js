@@ -41,6 +41,7 @@ function showQuestion(question){
 
 function resetState(){
     clearStatusClass(document.body)
+    document.getElementById('text').innerHTML="Choose an option";
     nextButton.classList.add('hide')
     while (answerButtonElement.firstChild){
         answerButtonElement.removeChild(answerButtonElement.firstChild)
@@ -65,16 +66,28 @@ function selectAnswer(e){
 
 function setStatusClass(element,correct){
     clearStatusClass(element)
+    
     if (correct){
-        element.classList.add('correct')
+        
+        element.classList.add('correct');
+       
     }else{
-        element.classList.add('wrong')
+        element.classList.add('wrong');
+        
     }
+
+    if(document.body.classList.contains('correct')){
+        document.getElementById('text').innerHTML="Well Done!";
+    }else{
+        document.getElementById('text').innerHTML="Try Again";
+    }
+
 }
 
 function clearStatusClass(element){
     element.classList.remove('correct')
     element.classList.remove('wrong')
+    
 }
 
 const questions=[
@@ -103,6 +116,15 @@ const questions=[
             {text: 'With Love, Becks',correct:false},
             {text: 'Healing Heros',correct:false},
             {text: 'Ip Man',correct:true}
+        ]
+    },
+    {
+        question:'Which director is from Singapore?',
+        answers:[
+            {text:'Steven Spielberg',correct:false},
+            {text: 'John Ford',correct:false},
+            {text: 'Chen Kaige',correct:false},
+            {text: 'Jack Neo',correct:true}
         ]
     }
 ]

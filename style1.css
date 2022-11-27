@@ -8,6 +8,11 @@ img{
     width:100px;
 }
 
+#text{
+    color:white;
+    text-align: center;
+    font-size: 35px;
+}
 
 .newtable img{
     width:500px;
@@ -18,7 +23,7 @@ img{
 }
 
 .newtable td{
-    font-size: 30px;
+    font-size: 25px;
     padding:20px;
 }
 
@@ -49,9 +54,9 @@ img{
 }
 
 .homeheader{
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.6),rgba(4,9,30,0.6)),url(images/yisheng1.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6),rgba(4,9,30,0.6)),url(images/yisheng.jpg);
     background-position:center;
     background-size:cover;
     position:relative;
@@ -59,7 +64,7 @@ img{
 }
 
 .musicheader{
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.6),rgba(4,9,30,0.6)),url(images/music.webp);
     background-position:center;
@@ -69,9 +74,19 @@ img{
 }
 
 .dramaheader{
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.6),rgba(4,9,30,0.6)),url(images/drama.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    
+}
+
+.movieheader{
+    min-height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6),rgba(4,9,30,0.6)),url(images/movie1.png);
     background-position:center;
     background-size:cover;
     position:relative;
@@ -81,11 +96,20 @@ img{
 .quizheader{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.6),rgba(4,9,30,0.6)),url(images/quiz.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0),rgba(4,9,30,0)),url(images/transparent.png);
     background-position:center;
     background-size:cover;
     position:relative;
     
+}
+
+.feedbackheader{
+    min-height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6),rgba(4,9,30,0.6)),url(images/feedback.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
 }
 
 nav{
@@ -93,9 +117,11 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    
 }
 
+.wrapper a span {
+    color: #000;
+}
 
 .nav-links{
     flex:1;
@@ -146,7 +172,7 @@ nav{
 
 .textbox p{
     margin:10px 0 40px;
-    font-size:14px;
+    font-size:20px;
     color:#fff;
 }
 
