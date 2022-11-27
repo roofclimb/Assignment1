@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 1</title>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="feedbackstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap" rel="stylesheet">
@@ -14,27 +15,70 @@
 <body>
     <article class="dramaheader">
         <nav>
-            <a href="">hi</a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="music.html">Music</a></li>
-                    <li><a href="">Dramas/Variety</a></li>
-                    <li><a href="">Movies</a></li>
+                    <li><a href="drama.html">Dramas/Variety</a></li>
+                    <li><a href="movies.html">Movies</a></li>
                     <li><a href="">Contact Us/Feedback</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="textbox">
-            <h1>Dramas/Variety</h1>
-            <p>Mediacorp dramas and variety shows </p>
+            <h1>Contact Us/Feedback</h1>
+            <p>Thank you for going through my website.</p>
             <a href="" class="button">Visit us to know More</a>
         </div>
     </article>
     <div>
-
+        <br>
+        <div class="wrapper">
+            <a href="https://www.facebook.com/ch8sg" target="_blank">
+                <div class="icon facebook">
+                    <div class="tooltip">Facebook</div>
+                    <span><i class="fa fa-facebook"></i></span>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/the_celebrityagency/" target="_blank">
+                <div class="icon instagram">
+                    <div class="tooltip">Instagram</div>
+                    <span><i class="fa fa-instagram"></i></span>
+                </div>
+            </a>
+            <a href="https://github.com/roofclimb/Assignment1" target="_blank">
+                <div class="icon github">
+                    <div class="tooltip">Github</div>
+                    <span><i class="fa fa-github"></i></span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/@MediacorpEntertainment" target="_blank">
+                <div class="icon youtube">
+                    <div class="tooltip">YouTube</div>
+                    <span><i class="fa fa-youtube-play"></i></span>
+                </div>
+            </a>
+        </div>
+        
+    </div>
+    <br>
+    <br>
+    <div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="name">
+            <br>
+            <label for="email">Email address:</label>
+            <input type="email" placeholder="email">
+            <br>
+            <p>Feedback:</p>
+            <textarea></textarea>
+            <br>
+            <input type="submit">&ensp;
+            <input type="reset">
+        </form>
     </div>
     <!----JavaScript for toggle menu---->
     <script>
