@@ -8,7 +8,7 @@ This website is built for people all around the world to discover what Singapore
 
 # User Stories:
 
-- As a Singaporean, I want to find out what local productions has to offer in terms of media from sources such as films and music so that I can support the local industry
+- As a Singaporean, I want to find out what local productions has to offer in terms of media from sources such as films and music so that I can support the local industry. I would also be able to improve my command of Chinese Language.
 - As a foreigner, I am interested to find out more about Singapores culture and how different media is produced in Singapore in a more accessible way.
 
 ## Features made
@@ -16,9 +16,11 @@ This website is built for people all around the world to discover what Singapore
 - Navigation Bar
 - Embed video
 - Embed poll results
-- In-built quiz
-- Feedback form
+- In-built quiz with responsive background
+- Feedback form with validation
+- Pop-up alert prompt when submit
 - Embed instagram posts
+- Sticky Scroll to top button with progress bar
 
 ## Features yet to be made
 

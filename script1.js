@@ -1,6 +1,6 @@
 let calcScrollValue=()=>{
     let scrollProgress=document.getElementById('progress');
-    let progress=document.getElementById('progress-value');
+    let progressValue=document.getElementById('progress-value');
     let pos=document.documentElement.scrollTop;
     let calcHeight=
     document.documentElement.scrollHeight-
