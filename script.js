@@ -112,7 +112,7 @@ const questions=[
     {
         question:'Which show was not produced in Singapore?',
         answers:[
-            {text:'Third Rail',correct:false},
+            {text:'A Quest to Heal',correct:false},
             {text: 'With Love, Becks',correct:false},
             {text: 'Healing Heros',correct:false},
             {text: 'Ip Man',correct:true}
@@ -125,6 +125,15 @@ const questions=[
             {text: 'John Ford',correct:false},
             {text: 'Chen Kaige',correct:false},
             {text: 'Jack Neo',correct:true}
+        ]
+    },
+    {
+        question:'Which movie was not produced in Singapore?',
+        answers:[
+            {text:'Ah Boys to Men',correct:false},
+            {text: 'Long long time ago',correct:false},
+            {text: 'Ilo ilo',correct:false},
+            {text: 'Crazy Rich Asians',correct:true}
         ]
     }
 ]

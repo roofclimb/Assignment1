@@ -41,6 +41,10 @@ img{
     font-size: 35px;
 }
 
+.findout{
+    align-items: right;
+}
+
 .newtable img{
     width:500px;
 }
@@ -54,9 +58,14 @@ img{
     padding:20px;
 }
 
+.newtable tr{
+    font-size: 25px;
+    padding:0px;
+}
+
 .info{
     font-size: 25px;
-    padding:20px;
+    padding:0px;
 }
 
 .newbutton{
@@ -64,8 +73,8 @@ img{
     text-decoration:none;
     color:black;
     border:1px solid black;
-    padding:12px 20px;
-    font-size: 20px;
+    padding:15px 20px;
+    font-size: 25px;
     background:transparent;
     position:relative;
     cursor:pointer;
@@ -316,6 +325,7 @@ nav .fa{
 
     .video{
         width:100%;
+        height:auto;
     }
     
 }
