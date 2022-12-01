@@ -41,9 +41,7 @@ img{
     font-size: 35px;
 }
 
-.findout{
-    align-items: right;
-}
+
 
 .newtable img{
     width:500px;
@@ -55,17 +53,17 @@ img{
 
 .newtable td{
     font-size: 25px;
-    padding:20px;
+    padding:10px;
 }
 
 .newtable tr{
     font-size: 25px;
-    padding:0px;
+    padding:20px;
 }
 
 .info{
-    font-size: 25px;
-    padding:0px;
+    font-size: 25px;/* 
+    padding:0px; */
 }
 
 .newbutton{
@@ -73,8 +71,8 @@ img{
     text-decoration:none;
     color:black;
     border:1px solid black;
-    padding:15px 20px;
-    font-size: 25px;
+    padding:12px 20px;
+    font-size: 20px;
     background:transparent;
     position:relative;
     cursor:pointer;
