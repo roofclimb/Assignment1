@@ -42,6 +42,14 @@ img{
 }
 
 
+.firstimage{
+    width:500px;
+}
+
+.songslist{
+    width:500px;
+    padding:100px;
+}
 
 
 .newtable img{
@@ -51,13 +59,17 @@ img{
 
 .newtable{
     width:100%;
+    
 }
 
+.newtable ul{
+    list-style: none;
+}
 
 
 .newtable td{
     font-size: 25px;
-    padding:10px;
+    padding:20px;
 }
 
 .newtable tr{
@@ -319,6 +331,10 @@ nav .fa{
         flex-direction: column;
         align-items: center;
         width:auto;
+        padding: 20px;
+    }
+    .songslist{
+        padding:20px;
     }
 
     .newtable img{
