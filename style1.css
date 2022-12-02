@@ -46,9 +46,9 @@ img{
     width:500px;
 }
 
-.songslist{
+.list{
     width:500px;
-    padding:100px;
+    text-align: center;
 }
 
 
@@ -66,6 +66,17 @@ img{
     list-style: none;
 }
 
+.newtable li a:hover{
+    color:#f44336;
+}
+
+.newtable li a{
+    color:blue;
+}
+
+.newtable li a:visited{
+    color:purple;
+}
 
 .newtable td{
     font-size: 25px;
@@ -332,9 +343,6 @@ nav .fa{
         align-items: center;
         width:auto;
         padding: 20px;
-    }
-    .songslist{
-        padding:20px;
     }
 
     .newtable img{
