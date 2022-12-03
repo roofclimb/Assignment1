@@ -82,8 +82,8 @@
     color: #ff0000;
   }
 
-  input[type=text], [type=email] {
-    width: 100%;
+  input[type=text], [type=email],[type=textarea] {
+    /* width: 100%; */
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;

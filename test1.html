@@ -1,21 +1,65 @@
-<link rel="stylesheet" href="style1.css">
-<table class="newtable">
-<tr>
-  <td><img src="images/jj lin.jpg" alt=""></td>
-  <td>
-      Songs: 
-      <ul>
-          <li>那些你很冒险的梦</li>
-          <li>小酒窝</li>
-          <li>豆浆油条</li>
-      </ul>
-      <br>
-          <a href="https://en.wikipedia.org/wiki/JJ_Lin" target="_blank" class="newbutton">Find out more</a>
-      
-  </td>
-  <td>
-      <iframe width="500" height="300" src="https://www.youtube.com/embed/iE0l8Tx62DE" class="video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-  </td>
-</tr>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Quiz</title>
+    <link rel="icon" type="image/x-icon" href="/images/view-modified.png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+            <article class="quizheader">
+                <nav>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="music.html">Music</a></li>
+                            <li><a href="drama.html">Dramas/Variety</a></li>
+                            <li><a href="movies.html">Movies</a></li>
+                            <li><a href="feedback.html">Contact Us/Feedback</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+                <br>
+                <h1 id="text">There are 4 mcq questions. Click start to begin.</h1>
+                <br><br>
+                <div class="container">
+                
+                    <link href="style.css" rel="stylesheet">
+                    <div id = "question-container" class="hide">
+                        <div id="question">Question</div>
+                        <div id="answer-buttons" class="btn-grid">
+                            <button class="btn">Answer 1</button>
+                            <button class="btn">Answer 2</button>
+                            <button class="btn">Answer 3</button>
+                            <button class="btn">Answer 4</button>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <button id="start-btn" class="start-btn btn">Start</button>
+                        <button id="next-btn" class="next-btn btn hide">Next</button>
+                    </div>
+                </div>
+                
+            </article>
+            
+    <!----JavaScript for toggle menu---->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.left="0";
+        }
+        function hideMenu(){
+            navLinks.style.left="-200px";
+        }
+    </script>  
+    
+</body>
