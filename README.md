@@ -1,6 +1,6 @@
 ## Assignment1 (Introduction to Chinese Local Production)
 
-This website is to promote what Singapore's media industry has to offer in terms of songs, dramas and movies produced by Singaporeans to advocate more recognition for local artists and film makers. Many people are obilivous of what Singapore has to offer as they are more drawn toward overseas productions such as american movies and korean dramas. Thus, with this website, people would be able to find good local productions to watch and will support the local media industry in the accesible form of a website. Additionally local prodcution companies will also earn more money to produce even more incredible productions for viewers to enjoy. As Singapore is a Bilingual country with English as our first language, many Singaporeans are not really good in Chinese, be it spoken or written. So, I would like to promote Chinese local production.
+This website is to promote what Singapore's media industry has to offer in terms of songs, dramas and movies produced by Singaporeans to advocate more recognition for local artists and film makers. Many people are obilivous of what Singapore has to offer as they are more drawn toward overseas productions such as american movies and korean dramas. Thus, with this website, people would be able to find good local productions to watch and will support the local media industry in the accesible form of a website. Additionally local production companies will also earn more money to produce even more incredible productions for viewers to enjoy. As Singapore is a Bilingual country with English as our first language, many Singaporeans are not really good in Chinese, be it spoken or written. So, I would like to promote Chinese local production.
 
 # Design Process
 
@@ -24,11 +24,13 @@ This website is built for people all around the world to discover what Singapore
 
 ## Features yet to be made
 
-3 tabs
+# Testing
 
-- Music
-- Dramas/Variety
-- Movies
+- Quiz:
+  - If correct option selected, body colour turns green and "Well Done" is shown. After all questions completed, Next button changes to restart button.
+- Feedback form:
+  - Form validation included
+  - After form submitted, prompt shown to show that information received.
 
 # Technologies used
 
